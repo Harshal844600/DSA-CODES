@@ -19,7 +19,7 @@ int height(TreeNode* root){
 
     int left = height (root->left);
     int right = height (root->right);
-    // updating diameter..
+    // updating diameter
     diameter = max(diameter , left+right);// imp
 
     return 1 + max (left,right);
