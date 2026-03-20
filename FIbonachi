@@ -6,7 +6,7 @@ int fibon(int n,vector<int>&dp){//optimised solution.....
     if(n<=1)
     return n;
 
-    //already calculated result (fibon number)
+    //already calculated result (fibon number)...
     if(dp[n]!=-1)
     return dp[n];
 
